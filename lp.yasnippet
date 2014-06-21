@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name : Literal Programming src block
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+#+name: ${1:name}
+#+begin_src ${2:ruby} ${3::tangle ${4:filename} }:exports none ${5::noweb yes}
+$0
+#+end_src
