@@ -2,7 +2,7 @@
 #name : sh-mode block
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # --
-#+srcname: ${1:name}
-#+begin_src sh $2
-  $0
+${1:#+srcname: ${2:trey-}
+}#+begin_src sh ${3::results silent }$4
+$0
 #+end_src
