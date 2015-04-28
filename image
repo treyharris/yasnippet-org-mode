@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: image
+# key: image
+# --
+#+CAPTION: ${1:Caption for image}
+${2:#+ATTR_HTML: ${3::alt ${4:alt text here}} ${5::title ${6:Action!}} ${7::align ${8:right}}
+}${10:#+LABEL: ${11:label}
+}[[${12:./img/}${13:path}]]
