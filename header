@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: header => options, startup, title
+# key: header
+# --
+#+OPTIONS: H:2 num:nil toc:nil
+#+STARTUP: indent odd
+#+STARTUP: entitiespretty
+#+TITLE: $0
