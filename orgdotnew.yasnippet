@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: orgdotnew => orgdotemacs section
+# key: orgdotnew
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+* ${2:$1}
+:PROPERTIES:
+:NAME:     ${1:section}
+:END:
+
+#+NAME: $1${3:
+#+DEPENDS: ${4:dependency-name}}
+#+begin_src emacs-lisp
+  $0
+#+end_src
